@@ -16,18 +16,6 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="propeller" content="21d0c044aceeaeaa7021af7b2ef49ad8" />
-
-  <!--<script type='text/javascript'>
-  (function(w) {
-  if(navigator.userAgent.match(/iPhone|iPod|iPad|Android/i)==null)return;
-  var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('style'),j=d.createElement('script'),k=d.createElement('script');
-  s.setAttribute('rel','mw-page-block');s.innerHTML='body > * {display:none !important}';
-  j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/36694.js');
-  k.setAttribute('src','//cdn.adsoptimal.com/advertisement/dispatcher.js');
-  j.onerror=k.onerror=function(){h.removeChild(s);h.removeChild(j);h.removeChild(k);};
-  h.appendChild(s);h.appendChild(j);h.appendChild(k);
-  })(window);
-  </script>-->
 </head>
 <body>
   <div class="container">
@@ -38,6 +26,8 @@
         <div class="best-container">0</div>
       </div>
     </div>
+
+    <div class="adsoptimal-slot" style="width: 300px; height: 100px;"></div>
 
     <div class="above-game">
       <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
@@ -88,10 +78,15 @@
     <p class="game-explanation">
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
     </p>
+
+    <div class="adsoptimal-slot" style="width: 300px; height: 100px;"></div>
+
     <hr>
     <p>
     A big thank to <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a>
     </p>
+
+    <div class="adsoptimal-slot" style="width: 300px; height: 100px;"></div>
   </div>
 
   <script src="js/bind_polyfill.js"></script>
@@ -113,5 +108,24 @@
     ga('send', 'pageview');
   </script>
   <!--<script type='text/javascript' src='//go.pub2srv.com/apu.php?zoneid=714708'></script>-->
+  <!--<script type='text/javascript'>
+  (function(w) {
+  if(navigator.userAgent.match(/iPhone|iPod|iPad|Android/i)==null)return;
+  var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('style'),j=d.createElement('script'),k=d.createElement('script');
+  s.setAttribute('rel','mw-page-block');s.innerHTML='body > * {display:none !important}';
+  j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/36694.js');
+  k.setAttribute('src','//cdn.adsoptimal.com/advertisement/dispatcher.js');
+  j.onerror=k.onerror=function(){h.removeChild(s);h.removeChild(j);h.removeChild(k);};
+  h.appendChild(s);h.appendChild(j);h.appendChild(k);
+  })(window);
+  </script>-->
+  <script type='text/javascript'>
+  (function(w) {
+  var d=document,h=d.getElementsByTagName('head')[0],j=d.createElement('script'),k=d.createElement('script');
+  j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/36694.js');
+  k.setAttribute('src','//cdn.adsoptimal.com/advertisement/manual.js');
+  h.appendChild(j); h.appendChild(k);
+  })(window);
+  </script>
 </body>
 </html>
